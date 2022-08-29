@@ -7,6 +7,8 @@
 }
 
 body {
+    /* Hide horizontal scrollbar */
+    overflow-x: hidden;
     background: #F5F5F5;
     color: #444;
     font-family: 'Open Sans', sans-serif;
@@ -77,28 +79,7 @@ a.active {
     padding: 30px 25px;
 }
 
-/* * HEADER */
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px 25px;
-}
-
-.flex-item {
-    width: 20%;
-}
-
-.profile_picture {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px solid #98cfd8;
-    margin-right: 20px;
-}
+/* HEADER */
 
 .header,
 header {
@@ -111,7 +92,7 @@ header {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 30rem;
     justify-content: center;
     min-height: 250px;
     padding: 0 20px;
@@ -157,6 +138,23 @@ header h2 {
     font-size: 2.1rem;
     font-weight: 100;
     margin: 5px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 25px;
+}
+
+.profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #98cfd8;
+    margin-right: 20px;
 }
 
 /* SKILLS */
